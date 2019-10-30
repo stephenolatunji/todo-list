@@ -1,0 +1,9 @@
+body{
+    background-color: #000;
+    padding: 50px;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+}
