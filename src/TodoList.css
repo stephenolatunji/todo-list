@@ -1,0 +1,51 @@
+.todo .header input {
+    padding: 10px;
+    border: 3px solid #fff;
+    width: 150px;
+    font-size: 12px;
+    border-radius: 16px;
+}
+
+.todo .header button {
+    margin: 10px;
+    margin-right: 0px;
+    padding: 10px;
+    color: azure;
+    background-color: blueviolet;
+    border: 2px solid #467;
+    font-size: 16px;
+    border-radius: 24px;
+    width: 80px;
+}
+
+.todo .header button:hover {
+  background-color: #40ebe2;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+
+.todo .myList {
+  list-style: none;
+  padding-left: 0;
+  width: 250px;
+} 
+
+
+.todo .myList li {
+  color: #fff;
+  background-color: rgba(143, 10, 184, 0.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+  transition: background-color .2s ease-out;
+}
+
+.todo .myList li:hover {
+  background-color: rgb(12, 209, 199);
+  cursor: pointer;
+}
+
+ul.myList {
+  padding: 0;
+}
